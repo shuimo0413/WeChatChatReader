@@ -1,0 +1,8 @@
+path: dataset
+train: images/train
+val: images/val
+nc: 3
+names:
+  0: chat_bubble
+  1: chat_object
+  2: distraction    

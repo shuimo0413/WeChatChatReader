@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>微信气泡 YOLO 标注</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="bar">
+    <h1>YOLO 标注</h1>
+    <div class="bar-actions">
+      <button type="button" class="btn" id="btnRefresh">刷新 before_img</button>
+      <button type="button" class="btn" id="btnSave">保存到 img / labels</button>
+      <label class="btn secondary">
+        本地选择图片
+        <input type="file" id="inpImages" accept="image/*" multiple hidden />
+      </label>
+      <label class="btn secondary">
+        导入标签 txt
+        <input type="file" id="inpLabels" accept=".txt" multiple hidden />
+      </label>
+      <button type="button" class="btn secondary" id="btnClear">清空当前图框</button>
+      <button type="button" class="btn secondary" id="btnDlCurrent">下载当前 txt</button>
+      <button type="button" class="btn secondary" id="btnDlZip">打包下载全部 txt</button>
+    </div>
+    <span class="status" id="statusLine"></span>
+  </header>
+
+  <main class="layout">
+    <aside class="panel">
+      <div class="field">
+        <span class="label">当前类别</span>
+        <div class="seg" id="classSeg">
+          <button type="button" class="seg-btn active" data-cls="0">0 聊天气泡</button>
+          <button type="button" class="seg-btn" data-cls="1">1 聊天对象</button>
+          <button type="button" class="seg-btn" data-cls="2">2 干扰项</button>
+        </div>
+        <p class="hint">快捷键 <kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd> 切换类别；<kbd>←</kbd><kbd>→</kbd> 换图；<kbd>Del</kbd> 删除选中框。需先运行 <code>python tools/fount/server.py</code> 再打开本页。</p>
+      </div>
+      <div class="field">
+        <span class="label">图片 <span id="imgIdx">0 / 0</span></span>
+        <div class="nav">
+          <button type="button" class="btn small secondary" id="btnPrev">上一张</button>
+          <button type="button" class="btn small secondary" id="btnNext">下一张</button>
+        </div>
+      </div>
+      <div class="field">
+        <span class="label">当前图框列表</span>
+        <ul class="box-list" id="boxList"></ul>
+      </div>
+    </aside>
+
+    <section class="canvas-wrap">
+      <div class="canvas-hint" id="canvasHint">正在加载 before_img …</div>
+      <canvas id="cv"></canvas>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

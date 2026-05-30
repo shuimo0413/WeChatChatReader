@@ -1,0 +1,462 @@
+[
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\142442b07640a4ca58aba47011cd8b4b.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\142442b07640a4ca58aba47011cd8b4b.json",
+    "chat_object": "Accept",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          406,
+          352,
+          632,
+          419
+        ],
+        "speaker": "Accept",
+        "text": "这会就要上课吗"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          988,
+          436,
+          1081,
+          504
+        ],
+        "speaker": "self",
+        "text": "en"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          825,
+          520,
+          1080,
+          587
+        ],
+        "speaker": "self",
+        "text": "已经给你们办好了"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          404,
+          606,
+          503,
+          675
+        ],
+        "speaker": "Accept",
+        "text": "OK"
+      }
+    ]
+  },
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\2efa29db9b478cb2978fd3d5d5f299cd.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\2efa29db9b478cb2978fd3d5d5f299cd.json",
+    "chat_object": "鱿鱼的香菇",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          1031,
+          152,
+          1127,
+          222
+        ],
+        "speaker": "self",
+        "text": "行"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          652,
+          235,
+          1124,
+          307
+        ],
+        "speaker": "self",
+        "text": "其实咱自己训练的模型，足\n跑一张图时间很少"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          869,
+          319,
+          1124,
+          390
+        ],
+        "speaker": "self",
+        "text": "我看了\n30ms左右"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          627,
+          402,
+          1124,
+          477
+        ],
+        "speaker": "self",
+        "text": "后续处理很消耗时间，手\n我甚至想到拿c++\n重写"
+      },
+      {
+        "index": 5,
+        "bbox": [
+          458,
+          490,
+          550,
+          558
+        ],
+        "speaker": "鱿鱼的香菇",
+        "text": "对"
+      },
+      {
+        "index": 6,
+        "bbox": [
+          460,
+          609,
+          781,
+          681
+        ],
+        "speaker": "鱿鱼的香菇",
+        "text": "Yolo我用的最小最小的模型"
+      },
+      {
+        "index": 7,
+        "bbox": [
+          458,
+          694,
+          580,
+          764
+        ],
+        "speaker": "鱿鱼的香菇",
+        "text": "5.2M"
+      },
+      {
+        "index": 8,
+        "bbox": [
+          463,
+          779,
+          631,
+          843
+        ],
+        "speaker": "鱿鱼的香菇",
+        "text": "很短很短的"
+      }
+    ]
+  },
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\9579c7af1d04e7281bbdb49ea5d83eda.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\9579c7af1d04e7281bbdb49ea5d83eda.json",
+    "chat_object": "Accept",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          969,
+          141,
+          1082,
+          210
+        ],
+        "speaker": "self",
+        "text": "吃饭"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          922,
+          225,
+          1082,
+          295
+        ],
+        "speaker": "self",
+        "text": "在宿舍？"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          405,
+          312,
+          586,
+          381
+        ],
+        "speaker": "Accept",
+        "text": "在食堂。"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          850,
+          395,
+          1080,
+          465
+        ],
+        "speaker": "self",
+        "text": "新食堂\n老食堂"
+      },
+      {
+        "index": 5,
+        "bbox": [
+          405,
+          481,
+          539,
+          552
+        ],
+        "speaker": "Accept",
+        "text": "老食堂"
+      },
+      {
+        "index": 6,
+        "bbox": [
+          875,
+          615,
+          1079,
+          684
+        ],
+        "speaker": "self",
+        "text": "一层，\n二层？"
+      },
+      {
+        "index": 7,
+        "bbox": [
+          405,
+          702,
+          515,
+          772
+        ],
+        "speaker": "Accept",
+        "text": "一楼"
+      },
+      {
+        "index": 8,
+        "bbox": [
+          407,
+          789,
+          583,
+          849
+        ],
+        "speaker": "Accept",
+        "text": "营养套餐前"
+      }
+    ]
+  },
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\b780b20cd7959f01b67f2c37b806fe2c.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\b780b20cd7959f01b67f2c37b806fe2c.json",
+    "chat_object": "Accept",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          969,
+          99,
+          1081,
+          166
+        ],
+        "speaker": "self",
+        "text": "吃饭"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          922,
+          181,
+          1083,
+          251
+        ],
+        "speaker": "self",
+        "text": "在宿舍？"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          405,
+          268,
+          585,
+          337
+        ],
+        "speaker": "Accept",
+        "text": "在食堂。"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          852,
+          351,
+          1080,
+          420
+        ],
+        "speaker": "self",
+        "text": "新食堂\n老食堂"
+      },
+      {
+        "index": 5,
+        "bbox": [
+          405,
+          438,
+          539,
+          507
+        ],
+        "speaker": "Accept",
+        "text": "老食堂"
+      },
+      {
+        "index": 6,
+        "bbox": [
+          875,
+          573,
+          1080,
+          641
+        ],
+        "speaker": "self",
+        "text": "一层，\n二层？"
+      },
+      {
+        "index": 7,
+        "bbox": [
+          405,
+          659,
+          516,
+          729
+        ],
+        "speaker": "Accept",
+        "text": "一楼"
+      },
+      {
+        "index": 8,
+        "bbox": [
+          406,
+          745,
+          585,
+          810
+        ],
+        "speaker": "Accept",
+        "text": "营养套餐前"
+      }
+    ]
+  },
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\bc0f9547749466f01d9c81a86d6713d9.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\bc0f9547749466f01d9c81a86d6713d9.json",
+    "chat_object": "Accept",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          404,
+          120,
+          633,
+          188
+        ],
+        "speaker": "Accept",
+        "text": "这会就要上课吗"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          988,
+          204,
+          1081,
+          273
+        ],
+        "speaker": "self",
+        "text": "en"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          825,
+          289,
+          1080,
+          357
+        ],
+        "speaker": "self",
+        "text": "已经给你们办好了"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          404,
+          375,
+          503,
+          444
+        ],
+        "speaker": "Accept",
+        "text": "OK"
+      },
+      {
+        "index": 5,
+        "bbox": [
+          406,
+          702,
+          607,
+          768
+        ],
+        "speaker": "Accept",
+        "text": "重回巅峰好吧"
+      },
+      {
+        "index": 6,
+        "bbox": [
+          987,
+          786,
+          1081,
+          845
+        ],
+        "speaker": "self",
+        "text": "nb"
+      }
+    ]
+  },
+  {
+    "source_image": "D:\\java_object\\new_model\\test\\bea38e30-472a-40a2-bed8-1c6e33e58b16.png",
+    "source_detection_json": "D:\\java_object\\new_model\\predict_out\\bea38e30-472a-40a2-bed8-1c6e33e58b16.json",
+    "chat_object": "三角洲堵大坝撤离点(37)",
+    "messages": [
+      {
+        "index": 1,
+        "bbox": [
+          549,
+          159,
+          665,
+          228
+        ],
+        "speaker": "三角洲堵大坝撤离点(37)",
+        "text": "拉我"
+      },
+      {
+        "index": 2,
+        "bbox": [
+          551,
+          310,
+          767,
+          383
+        ],
+        "speaker": "三角洲堵大坝撤离点(37)",
+        "text": "我看看怎么个事"
+      },
+      {
+        "index": 3,
+        "bbox": [
+          548,
+          427,
+          1140,
+          501
+        ],
+        "speaker": "三角洲堵大坝撤离点(37)",
+        "text": "@有人我也要吃那我就不买了，\n我还用我的北极星吧"
+      },
+      {
+        "index": 4,
+        "bbox": [
+          551,
+          606,
+          791,
+          675
+        ],
+        "speaker": "三角洲堵大坝撤离点(37)",
+        "text": "干坏事还分早晚吗"
+      }
+    ]
+  }
+]

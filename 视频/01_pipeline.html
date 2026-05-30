@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 流程总览</title>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<div class="shell">
+<div class="topbar">
+<span class="eyebrow">Chapter 1</span>
+</div>
+<h1 class="page-title plain">流程总览</h1>
+<p class="lead">与项目文档一致的端到端链路。</p>
+<ol class="step-list">
+<li class="step-item"><span class="step-num">1</span><p class="step-body"><strong>采集</strong> <span class="mono">wechat_window_loop_ocr.py</span> → <span class="mono">before_img</span></p></li>
+<li class="step-item"><span class="step-num">2</span><p class="step-body"><strong>标注</strong> <span class="mono">fount/server.py</span> + <span class="mono">index.html</span>；<span class="mono">label_review.py</span> → <span class="mono">img</span>、<span class="mono">labels</span></p></li>
+<li class="step-item"><span class="step-num">3</span><p class="step-body"><strong>数据集</strong> <span class="mono">split_dataset.py</span> → <span class="mono">dataset/images</span>、<span class="mono">labels</span> 与 <span class="mono">data.yaml</span></p></li>
+<li class="step-item"><span class="step-num">4</span><p class="step-body"><strong>训练</strong> <span class="mono">train_bubbles.py</span> → <span class="mono">runs/detect/…/best.pt</span></p></li>
+<li class="step-item"><span class="step-num">5</span><p class="step-body"><strong>推理</strong> <span class="mono">predict_bubbles.py</span> + <span class="mono">bubble_role.py</span> → <span class="mono">predict_out</span>（可视化与 JSON）</p></li>
+<li class="step-item"><span class="step-num">6</span><p class="step-body"><strong>文本</strong> <span class="mono">text_process.py</span> → <span class="mono">text_json</span>（及可选裁剪小图）</p></li>
+</ol>
+<footer class="footer-bar">
+<a href="index.html">← 上一章 · 导航</a>
+<span class="dot">·</span>
+<a href="index.html">首页</a>
+<span class="dot">·</span>
+<a href="02_label_compare.html">下一章 · 标注与可视化 →</a>
+</footer>
+</div>
+</body>
+</html>

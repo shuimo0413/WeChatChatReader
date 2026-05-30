@@ -1,0 +1,51 @@
+{
+  "source_image": "D:\\java_object\\new_model\\test\\142442b07640a4ca58aba47011cd8b4b.png",
+  "source_detection_json": "D:\\java_object\\new_model\\predict_out\\142442b07640a4ca58aba47011cd8b4b.json",
+  "chat_object": "Accept",
+  "messages": [
+    {
+      "index": 1,
+      "bbox": [
+        406,
+        352,
+        632,
+        419
+      ],
+      "speaker": "Accept",
+      "text": "这会就要上课吗"
+    },
+    {
+      "index": 2,
+      "bbox": [
+        988,
+        436,
+        1081,
+        504
+      ],
+      "speaker": "self",
+      "text": "en"
+    },
+    {
+      "index": 3,
+      "bbox": [
+        825,
+        520,
+        1080,
+        587
+      ],
+      "speaker": "self",
+      "text": "已经给你们办好了"
+    },
+    {
+      "index": 4,
+      "bbox": [
+        404,
+        606,
+        503,
+        675
+      ],
+      "speaker": "Accept",
+      "text": "OK"
+    }
+  ]
+}

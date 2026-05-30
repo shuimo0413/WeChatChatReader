@@ -1,0 +1,20 @@
+﻿[project]
+name = "new-model"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.11.0",
+  "torchvision>=0.26.0",
+  "ultralytics>=8.4.39",
+  "opencv-python>=4.13.0.92",
+  "pillow>=12.2.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }

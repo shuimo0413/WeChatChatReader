@@ -1,0 +1,95 @@
+{
+  "source_image": "D:\\java_object\\new_model\\test\\2efa29db9b478cb2978fd3d5d5f299cd.png",
+  "source_detection_json": "D:\\java_object\\new_model\\predict_out\\2efa29db9b478cb2978fd3d5d5f299cd.json",
+  "chat_object": "鱿鱼的香菇",
+  "messages": [
+    {
+      "index": 1,
+      "bbox": [
+        1031,
+        152,
+        1127,
+        222
+      ],
+      "speaker": "self",
+      "text": "行"
+    },
+    {
+      "index": 2,
+      "bbox": [
+        652,
+        235,
+        1124,
+        307
+      ],
+      "speaker": "self",
+      "text": "其实咱自己训练的模型，足\n跑一张图时间很少"
+    },
+    {
+      "index": 3,
+      "bbox": [
+        869,
+        319,
+        1124,
+        390
+      ],
+      "speaker": "self",
+      "text": "我看了\n30ms左右"
+    },
+    {
+      "index": 4,
+      "bbox": [
+        627,
+        402,
+        1124,
+        477
+      ],
+      "speaker": "self",
+      "text": "后续处理很消耗时间，手\n我甚至想到拿c++\n重写"
+    },
+    {
+      "index": 5,
+      "bbox": [
+        458,
+        490,
+        550,
+        558
+      ],
+      "speaker": "鱿鱼的香菇",
+      "text": "对"
+    },
+    {
+      "index": 6,
+      "bbox": [
+        460,
+        609,
+        781,
+        681
+      ],
+      "speaker": "鱿鱼的香菇",
+      "text": "Yolo我用的最小最小的模型"
+    },
+    {
+      "index": 7,
+      "bbox": [
+        458,
+        694,
+        580,
+        764
+      ],
+      "speaker": "鱿鱼的香菇",
+      "text": "5.2M"
+    },
+    {
+      "index": 8,
+      "bbox": [
+        463,
+        779,
+        631,
+        843
+      ],
+      "speaker": "鱿鱼的香菇",
+      "text": "很短很短的"
+    }
+  ]
+}

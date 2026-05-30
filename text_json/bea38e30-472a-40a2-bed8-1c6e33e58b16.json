@@ -1,0 +1,51 @@
+{
+  "source_image": "D:\\java_object\\new_model\\test\\bea38e30-472a-40a2-bed8-1c6e33e58b16.png",
+  "source_detection_json": "D:\\java_object\\new_model\\predict_out\\bea38e30-472a-40a2-bed8-1c6e33e58b16.json",
+  "chat_object": "三角洲堵大坝撤离点(37)",
+  "messages": [
+    {
+      "index": 1,
+      "bbox": [
+        549,
+        159,
+        665,
+        228
+      ],
+      "speaker": "三角洲堵大坝撤离点(37)",
+      "text": "拉我"
+    },
+    {
+      "index": 2,
+      "bbox": [
+        551,
+        310,
+        767,
+        383
+      ],
+      "speaker": "三角洲堵大坝撤离点(37)",
+      "text": "我看看怎么个事"
+    },
+    {
+      "index": 3,
+      "bbox": [
+        548,
+        427,
+        1140,
+        501
+      ],
+      "speaker": "三角洲堵大坝撤离点(37)",
+      "text": "@有人我也要吃那我就不买了，\n我还用我的北极星吧"
+    },
+    {
+      "index": 4,
+      "bbox": [
+        551,
+        606,
+        791,
+        675
+      ],
+      "speaker": "三角洲堵大坝撤离点(37)",
+      "text": "干坏事还分早晚吗"
+    }
+  ]
+}

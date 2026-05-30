@@ -1,0 +1,95 @@
+{
+  "source_image": "D:\\java_object\\new_model\\test\\b780b20cd7959f01b67f2c37b806fe2c.png",
+  "source_detection_json": "D:\\java_object\\new_model\\predict_out\\b780b20cd7959f01b67f2c37b806fe2c.json",
+  "chat_object": "Accept",
+  "messages": [
+    {
+      "index": 1,
+      "bbox": [
+        969,
+        99,
+        1081,
+        166
+      ],
+      "speaker": "self",
+      "text": "吃饭"
+    },
+    {
+      "index": 2,
+      "bbox": [
+        922,
+        181,
+        1083,
+        251
+      ],
+      "speaker": "self",
+      "text": "在宿舍？"
+    },
+    {
+      "index": 3,
+      "bbox": [
+        405,
+        268,
+        585,
+        337
+      ],
+      "speaker": "Accept",
+      "text": "在食堂。"
+    },
+    {
+      "index": 4,
+      "bbox": [
+        852,
+        351,
+        1080,
+        420
+      ],
+      "speaker": "self",
+      "text": "新食堂\n老食堂"
+    },
+    {
+      "index": 5,
+      "bbox": [
+        405,
+        438,
+        539,
+        507
+      ],
+      "speaker": "Accept",
+      "text": "老食堂"
+    },
+    {
+      "index": 6,
+      "bbox": [
+        875,
+        573,
+        1080,
+        641
+      ],
+      "speaker": "self",
+      "text": "一层，\n二层？"
+    },
+    {
+      "index": 7,
+      "bbox": [
+        405,
+        659,
+        516,
+        729
+      ],
+      "speaker": "Accept",
+      "text": "一楼"
+    },
+    {
+      "index": 8,
+      "bbox": [
+        406,
+        745,
+        585,
+        810
+      ],
+      "speaker": "Accept",
+      "text": "营养套餐前"
+    }
+  ]
+}
